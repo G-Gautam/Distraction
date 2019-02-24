@@ -1,0 +1,27 @@
+{
+  "name": "distraction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^2.0.1",
+    "apify": "^0.11.8",
+    "body-parser": "^1.18.3",
+    "download-pdf": "^0.1.6",
+    "express": "^4.16.4",
+    "extract-main-text": "^1.0.3",
+    "html-to-text": "^4.0.0",
+    "nodemon": "^1.18.10",
+    "pdf2json": "^1.1.8",
+    "puppeteer": "^1.12.2",
+    "request": "^2.88.0",
+    "unfluff": "^3.2.0",
+    "watson-developer-cloud": "^3.18.1",
+    "youtube-captions-scraper": "^1.0.3"
+  }
+}
