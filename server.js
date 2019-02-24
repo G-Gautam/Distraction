@@ -15,6 +15,6 @@ app.use('/', product);
 app.use('/front', express.static(__dirname + '/views/front'));
 let port = 8080;
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 5000), () => {
     console.log('Server is up and running on port numner ' + port);
-});
+};
