@@ -1,0 +1,20 @@
+{
+   "name":"distraction",
+   "version": "1.0.0",
+   "manifest_version" : 2,
+   "description": "Focus on your task!",
+   "icons":{ "128": "target_128.png",
+      "64": "target_64.png",
+      "32":"target_32.png",
+      "16":"target_16.png"
+   },
+
+   "browser_action" :{
+      "default_title": "Focus onyour task!",
+      "default_popup": "popup.html"
+
+   },
+
+   "permissions":["activeTab"]
+
+}
